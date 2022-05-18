@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LS22_Launcher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="500" Width="800">
+    <Window.Resources>
+        <ResourceDictionary Source="Templates/ResourceDictionaryTemplate.xaml" />
+    </Window.Resources>
     <Grid>
-        
+        <TabControl TabStripPlacement="Left" Margin="5">
+            <TabItem Template="{StaticResource TabItem}" Header="Test" />
+            <TabItem Template="{StaticResource TabItem}" Header="Test2" />
+            <TabItem Template="{StaticResource TabItem}" Header="Test3" />
+        </TabControl>
     </Grid>
 </Window>
