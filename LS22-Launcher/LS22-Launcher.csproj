@@ -66,6 +66,7 @@
             <SubType>Code</SubType>
         </Compile>
         <Page Include="ModDb\ModDbMainView.xaml" />
+        <Page Include="Templates\ResourceDictionaryTemplate.xaml" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="MainWindowViewModel.cs" />
