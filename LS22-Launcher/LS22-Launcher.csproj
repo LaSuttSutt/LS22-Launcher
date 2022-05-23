@@ -66,13 +66,10 @@
             <SubType>Code</SubType>
         </Compile>
         <Page Include="ModDb\ModDbMainView.xaml" />
-        <Page Include="Templates\ResourceDictionaryTemplate.xaml" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="MainWindowViewModel.cs" />
-        <Compile Include="ModDb\ModDbMainView.xaml.cs">
-          <DependentUpon>ModDbMainView.xaml</DependentUpon>
-        </Compile>
+        <Compile Include="ModDb\ModDbMainView.xaml.cs" />
         <Compile Include="ModDb\ModDbMainViewModel.cs" />
         <Compile Include="Properties\AssemblyInfo.cs">
             <SubType>Code</SubType>
